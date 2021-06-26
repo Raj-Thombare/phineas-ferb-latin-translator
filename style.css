@@ -22,12 +22,6 @@ nav {
     font-size: 1.3rem;
 }
 
-nav img {
-    position: relative;
-    top: 0;
-    display: inline;
-}
-
 main {
     margin: auto;
     padding: 1rem;
