@@ -3,6 +3,7 @@ var txtInput = document.querySelector("#text-input");
 var outputDiv = document.querySelector("#output");
 
 var serverURL = "https://api.funtranslations.com/translate/ferb-latin.json";
+// var serverURL = "https://lessonfourapi.tanaypratap.repl.co/translate/yoda.json";
 
 function getTranslationURL(text){
     return serverURL + "?" + "text=" + text
@@ -10,7 +11,7 @@ function getTranslationURL(text){
 
 function errorHandler(error){
     console.log("Error Occurred!", error)
-    console.log("something is wrong with server! please try again later")
+    alert("something is wrong with server! please try again later")
 }
 
 
