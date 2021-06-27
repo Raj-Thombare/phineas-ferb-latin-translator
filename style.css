@@ -29,12 +29,14 @@ main {
 }
 
 textarea {
+    box-sizing: border-box;
     display: block;
     width: 100%;
     font-family: inherit;
     font-size: large;
     height: 20vh;
     margin: 2rem 0rem;
+    padding: 1rem;
     color: var(--primary);
 }
 
