@@ -57,6 +57,7 @@ button {
     margin-top:2rem;
     padding: 1rem;
     color: var(--primary);
+    word-break: break-all;
     overflow: auto;
 }
 
